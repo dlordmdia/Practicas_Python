@@ -1,89 +1,69 @@
 import time
 
-print("---- DLORD RAP QUIZ ----\n")
+print("\n----IDIOTCALCULATOR----\n\n Created by DlordMDia\n")
 
-# Pregunta 1
+time.sleep(1)
 
-print("---- PREGUNTA 1 ----")
+equation = input("Cuál es tu ecuación? ")
 
-print("Cuál es la canción más escuchada en el canal de Dlord Rap?\n")
-time.sleep(5)
-print("a) La actualidad pt.1\nb) Principios\nc) Cash\nd) Hoy en Día ")
-respuesta1 = input("Tu respuesta (a, b, c, d): ")
+print(f"Resultado: {eval(equation)}")
 
-if respuesta1.lower() == "c":
-    print("\nCorrecto! Eres un verdadero OG!! \n")
+time.sleep(1)
 
-else:
-    print("\nNo... Te equivocaste... intentalo otra vez la próxima ronda!\n")
+#proximo Calculo 
 
+time.sleep(1)
 
-time.sleep(2)
+print("\nQuieres hacer otro cálculo?\n")
 
-# Pregunta 2
+time.sleep(1)
 
-print("---- PREGUNTA 2 ----")
+respuesta1 = input("\nTu respuesta (y/n) : ")
 
-print("Cual vídeo está en la mejor resolución del canal de Dlord Rap? (Hay dos opciones)\n")
-time.sleep(5)
-print("a) Hoy en Día\nb) Principios\nc) Cash\nd) el Pasado \ne) Es Pegadizo ")
-respuesta1 = input("Tu respuesta (a, b, c, d, e): ")
-
-if respuesta1.lower() == "a" or respuesta1.lower() == "d" :
-    print("\nCorrecto! Eres un verdadero OG!! \n")
+if respuesta1.lower() == "y":
+    equation = input("\nCuál es tu ecuación? ")
+    print(f"Resultado: {eval(equation)}")
+    time.sleep(2)
 
 else:
-    print("\nNo... Te equivocaste... intentalo otra vez la próxima ronda!\n")
+    time.sleep(1)
+    print("\nQuieres saber más sobre DlordMDia?")
+    time.sleep(1)
+    respuesta2 = input("\n Tu respuesta (y/n): ")
 
-time.sleep(2)
+    if respuesta2 == "y":
+        time.sleep(1)
+        print("Dlord Rap tiene muchos perfiles con información y contenido. Te recomiendo su Quizz para saber un poco más de él. Aquí dejo el github de su python code.\n ")
+        time.sleep(5)
+        respuesta3 = input("\n Lo quieres? (y/n): ")
+        if respuesta3 == "y":
+            print("Toma: https://github.com/dlordmdia/Practicas_Python/blob/main/dlordrap_quiz.py\n")
+            time.sleep(1)
+            print("Gracias por usar Idiot Calculator\n--Creado por DlordMDia--\n")
+            exit()
+        else:
+            print("Gracias por usar Idiot Calculator\n--Creado por DlordMDia--\n")
+            exit()
+    else:
+        print("Gracias por usar Idiot Calculator\n--Creado por DlordMDia--\n")
 
-#Pregunta 3
+#saber mas sobre dlord
 
-print("---- PREGUNTA 3 ----")
+time.sleep(1)
 
-print("Que apps usa Dlord Rap principalmente para editar Audio? (Hay dos opciones)\n")
-time.sleep(5)
-print("a) Ableton\nb) PhotoShop\nc) Inshot\nd) Audacity  ")
-respuesta1 = input("Tu respuesta (a, b, c, d): ")
+print("\nQuieres saber más sobre DlordMDia?")
+time.sleep(1)
+respuesta2 = input("\n Tu respuesta (y/n) o saltar: ")
 
-if respuesta1.lower() == "a" or respuesta1.lower() == "d" :
-    print("\nCorrecto! Eres un verdadero OG!! \n")
-
+if respuesta2 == "y":
+    print("\nDlord Rap tiene muchos perfiles con información y contenido. Te recomiendo su Quizz para saber un poco más de él. Aquí dejo el github de su python code.\n ")
+    respuesta3 = input("\n Lo quieres? (y/n): ")
+    if respuesta3 == "y":
+        time.sleep(1)
+        print("Toma: https://github.com/dlordmdia/Practicas_Python/blob/main/dlordrap_quiz.py\n")
+        time.sleep(1)
+        print("Gracias por usar Idiot Calculator\n--Creado por DlordMDia--\n")
+    else:
+        print("Gracias por usar Idiot Calculator\n--Creado por DlordMDia--\n")
 else:
-    print("\nNo... Te equivocaste... intentalo otra vez la próxima ronda!\n")
-
-time.sleep(2)
-
-#Pregunta 4
-
-print("---- PREGUNTA 4 ----")
-
-print("Donde ha comprado su Microfono? \n")
-time.sleep(5)
-print("a) En Amazon\nb) En el chino del barrio\nc) En Thomann\nd) En AliExpress  ")
-respuesta1 = input("Tu respuesta (a, b, c, d): ")
-
-if respuesta1.lower() == "c" :
-    print("\nCorrecto! Eres un verdadero OG!! Incluso OG de Instagram! El Único sitio donde esta infoormación fue revelada por Dlord Rap. \n")
-
-else:
-    print("\nNo... Te equivocaste... intentalo otra vez la próxima ronda! Y deberías pasarte por el Instagram Account de @dlord_rap! El único sitio revelado por él mismo.\n")
-
-time.sleep(2)
-
-#Pregunta 5
-
-print("---- PREGUNTA 5 ----")
-
-print("En que medio de Internet tiene Dlord Rap más seguidores?\n")
-time.sleep(5)
-print("a) Instagram (@dlord_rap)\nb) TikTok (@dlord_rap)\nc) YouTube (Dlord Rap\nd) Spotify (Dlord Rap)  ")
-respuesta1 = input("Tu respuesta (a, b, c, d): ")
-
-if respuesta1.lower() == "b" or respuesta1.lower() == "d" :
-    print("\nCorrecto! Eres un verdadero OG!! Followers: 150 más o menos\nTambién eres un OG de TikTok ya que sigues a la mejor cuemta disponible! \n")
-
-else:
-    print("\nNo... Te equivocaste... intentalo otra vez la próxima ronda!\n")
-
-time.sleep(2)
+    print("Gracias por usar Idiot Calculator\n--Creado por DlordMDia--\n")
