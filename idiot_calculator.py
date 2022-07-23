@@ -1,4 +1,5 @@
 import time
+import webbrowser
 
 seguir = "y"
 
@@ -20,10 +21,12 @@ respuesta2 = input("\n Tu respuesta (y/n): ")
 
 if respuesta2 == "y":
     print("\nDlord tiene muchos perfiles con información y contenido. Te recomiendo su Quizz para saber un poco más de él. Aquí dejo el github de su python code. También te daré a la vez TODOS los medios más interesantes de Dlord!\n ")
-    respuesta3 = input("\n Lo quieres? (y/n): \n")
+    respuesta3 = input("\n Los quieres abrir en tu Browser? (y/n): ")
     if respuesta3 == "y":
         time.sleep(1)
-        print("Toma:\nGitHub: https://github.com/dlordmdia/Practicas_Python/blob/main/dlordrap_quiz.py \nYoutube Rap: https://www.youtube.com/channel/UCdHXWPzL5MbRSDNexzbTg7w \nYoutube de Drones: https://www.youtube.com/channel/UCUa5cLjlaspHPciMtEZUgZg \n\n")
+        webbrowser.open("https://github.com/dlordmdia/Practicas_Python/blob/main/dlordrap_quiz.py")
+        webbrowser.open("https://www.youtube.com/channel/UCdHXWPzL5MbRSDNexzbTg7w")
+        webbrowser.open("https://www.youtube.com/channel/UCUa5cLjlaspHPciMtEZUgZg")
 
 
 time.sleep(1)
