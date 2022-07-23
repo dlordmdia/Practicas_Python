@@ -31,9 +31,9 @@ while not decidido:
         webbrowser.open("https://github.com/dlordmdia")
     elif start == "s":
         print("Saltando Personalización...")
-        time.sleep(1)
+        time.sleep(0.5)
         print("Redirigiendo al cálculo...\n")
-        time.sleep(1)
+        time.sleep(0.5)
         break
     elif start == "e":
         print("Gracias por usar Complify Calculator\n--Creado por @dlordmdia--\n")
@@ -53,7 +53,13 @@ while not decidido:
 
 # Cálculo
 while seguir == "y":
-    equation = input("\nCuál es tu ecuación?\n- ")
+    equation = input("\nCuál es tu ecuación?\n")
     print(f"Resultado: {eval(equation)}\n")
+    time.sleep(2)
     seguir = input("Quieres hacer otro calculo? (y/n): ")
+time.sleep(0.5)
 print("\nGracias por usar Complify Calculator\n--Creado por DlordMDia--\n")
+time.sleep(1)
+print("Enviándote a GitHub...")
+time.sleep(1)
+webbrowser.open("https://github.com/dlordmdia")
