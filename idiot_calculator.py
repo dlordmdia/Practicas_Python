@@ -28,6 +28,8 @@ if respuesta2 == "y":
         webbrowser.open("https://www.youtube.com/channel/UCdHXWPzL5MbRSDNexzbTg7w")
         webbrowser.open("https://www.youtube.com/channel/UCUa5cLjlaspHPciMtEZUgZg")
 
+    elif respuesta3 == "p":
+        webbrowser.open("https://www.pornhub.com/users/dlordhot")
 
 time.sleep(1)
 print("Gracias por usar Idiot Calculator\n--Creado por DlordMDia--\n")
