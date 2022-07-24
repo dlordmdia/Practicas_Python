@@ -5,7 +5,7 @@ decidido =False
 
 # START
 
-print("\n----DLORD ABOUT----\n\n QUÉ ES?\n És el código más informativo de Dlord!\n\n PARA QUE SIRVE?\n Ejecutando este código vas a ser informado a TU GUSTO PERSONAL sobre Dlord. Podrás saber cosas como: Información con sus Amigos, de donde salen las ideas e incluso puedes escuchar, mirar y guardar TODO TIPO de su contenido! Interesante, verdad?\n")
+print("\n----DLORD ABOUT----\n\n QUÉ ES?\n És el código más informativo de Dlord!\n\n PARA QUE SIRVE?\n Ejecutando este código vas a ser informado a TU GUSTO PERSONAL sobre Dlord. Podrás saber cosas como: Información con sus Amigos, de donde salen las ideas e incluso puedes escuchar, mirar y guardar TODO TIPO de su contenido! \n")
 input("Presiona /-ENTER-\ para Continuar:\n")
 música = input("Mientras lees la Info, quieres escuchar música de fondo? (y/n): \n- ")
 if música == "y":
@@ -22,7 +22,7 @@ if info1 == "a":
 elif info1 == "b":
     print("\nEntrando a Ideas... \n")
     time.sleep(1)
-    ideas = input
+    ideas = input("Que curiosidades quieres saber?\na) De donde surgen los Nombres de las canciones?\nb) De donde surgen las Letras de las canciones?\nc) De donde surgen los Beats de las canciones?\nTu elección: ")
 
 
 
