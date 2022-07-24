@@ -31,7 +31,8 @@ while True:
     elif inicio == "b":
         os.system('cls' if os.name=='nt' else 'clear')
         print("Tienes: ")
-        print(lista)
+        for item in lista:
+            print(f"- {item}")
         saleave = input("\n\n -x to Leave:\n- ")
         if saleave == "x":
             os.system('cls' if os.name=='nt' else 'clear')
@@ -60,6 +61,7 @@ while True:
 
     elif inicio == "e":
         os.system('cls' if os.name=='nt' else 'clear')
-        print(f"Tu precio total és: {precio_total}€\n\n -x to Leave:\n- ")
-        time.sleep(3)
-        print("\na) Añadir cosas\nb) Ver lista\nc) Cerrar lista de compras!!\nd) Abrir Calculadora\ne) Ver precio Total")
+        xleave = input(f"Tu precio total és: {precio_total}€\n\n -x to Leave:\n- ")
+        if xleave == "x":
+            os.system('cls' if os.name=='nt' else 'clear')
+            print("\na) Añadir cosas\nb) Ver lista\nc) Cerrar lista de compras!!\nd) Abrir Calculadora\ne) Ver precio Total")
