@@ -28,3 +28,5 @@ for i in range(length):
 print(f"Tu contraseña es: {password}")
 pyperclip.copy(password)
 
+time.sleep(2)
+print("\n----PASSWORD GENERATOR----\n   Created by dlordmdia\n\n")
