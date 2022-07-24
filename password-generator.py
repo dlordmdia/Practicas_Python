@@ -4,7 +4,7 @@ import random
 import time
 import pyperclip
 
-("\n----PASSWORD GENERATOR----\n   Created by dlordmdia\n\n")
+print("\n----PASSWORD GENERATOR----\n   Created by dlordmdia\n\n")
 time.sleep(1)
 
 # List Generator
@@ -26,7 +26,10 @@ for i in range(length):
         password += random.choice(symbols)
 
 print(f"Tu contraseña es: {password}")
-pyperclip.copy(password)
+passcopy = input("\nCopiar contraseña a portapapeles? (y/n): ")
+if passcopy == "y":
+    pyperclip.copy(password)
+    print("\nCopiado!\n")
 
-time.sleep(2)
+time.sleep(0.5)
 print("\n----PASSWORD GENERATOR----\n   Created by dlordmdia\n\n")
