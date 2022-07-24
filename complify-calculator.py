@@ -17,7 +17,7 @@ input("Presiona ///ENTER\\\ para Seguir\n- ")
 while not decidido:
     start = input("Que quieres personalizar?\nType -h for help\n- ")
     if start == "h":
-        help = input("NECESITAS AYUDA?\nPresiona -m si quieres escuchar música\nPresiona -l para ser Redirigido a Classroom\nPresiona -d para ser Redirigido a Google Drive\nPresiona -g para ser Redirigido a Google\nPresiona -c si quieres ver el código\nPresiona -s para Saltar la Personalización o Seguir el Cálculo\nPresiona -e para cerrar la calculadora\n\nTu decisión: - ")
+        print("NECESITAS AYUDA?\nPresiona -m si quieres escuchar música\nPresiona -l para ser Redirigido a Classroom\nPresiona -d para ser Redirigido a Google Drive\nPresiona -g para ser Redirigido a Google\nPresiona -c si quieres ver el código\nPresiona -s para Saltar la Personalización o Seguir el Cálculo\nPresiona -e para cerrar la calculadora\n\n")
     if start == "m":
         dec1 = input("Que quieres escuchar?\na) Música chill\nb) Playlist Random\n- ")
         if dec1 == "a":
