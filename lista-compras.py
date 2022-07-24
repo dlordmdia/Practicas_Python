@@ -16,9 +16,9 @@ while True:
     inicio = input("- ")
     if inicio == "a":
         anadiendo = True
+        os.system('cls' if os.name=='nt' else 'clear')
         while anadiendo:
-            os.system('cls' if os.name=='nt' else 'clear')
-            objeto = input("Pulsa -x para SALIR | Tu objeto: ")
+            objeto = input("-x to Leave | Tu objeto: ")
             if objeto == "x":
                 print("Saliendo...")
                 anadiendo = False
@@ -30,14 +30,12 @@ while True:
             
     elif inicio == "b":
         os.system('cls' if os.name=='nt' else 'clear')
-        print("-x to Leave | Tienes: \n")
-        time.sleep(1)
-        for item in lista:
-            leave = input(f"- {item}")
-            if leave == "x":
-                break
-        os.system('cls' if os.name=='nt' else 'clear')
-        print("\na) Añadir cosas\nb) Ver lista\nc) ¡¡Cerrar lista de compras!!\nd) Abrir Calculadora\ne) Ver precio Total")
+        print("Tienes: ")
+        print(lista)
+        saleave = input("\n\n -x to Leave:\n- ")
+        if saleave == "x":
+            os.system('cls' if os.name=='nt' else 'clear')
+            print("\na) Añadir cosas\nb) Ver lista\nc) ¡¡Cerrar lista de compras!!\nd) Abrir Calculadora\ne) Ver precio Total")
     
     elif inicio == "c":
         os.system('cls' if os.name=='nt' else 'clear')
@@ -62,6 +60,6 @@ while True:
 
     elif inicio == "e":
         os.system('cls' if os.name=='nt' else 'clear')
-        print(f"Tu precio total és: {precio_total}€")
+        print(f"Tu precio total és: {precio_total}€\n\n -x to Leave:\n- ")
         time.sleep(3)
         print("\na) Añadir cosas\nb) Ver lista\nc) Cerrar lista de compras!!\nd) Abrir Calculadora\ne) Ver precio Total")
