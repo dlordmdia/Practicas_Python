@@ -33,7 +33,7 @@ while True:
         print("Tienes: ")
         for item in lista:
             print(f"- {item}")
-        saleave = input("\n\n -x to Leave:\n- ")
+        saleave = input("\n\n-x to Leave:\n- ")
         if saleave == "x":
             os.system('cls' if os.name=='nt' else 'clear')
             print("\na) Añadir cosas\nb) Ver lista\nc) ¡¡Cerrar lista de compras!!\nd) Abrir Calculadora\ne) Ver precio Total")
