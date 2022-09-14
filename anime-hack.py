@@ -20,6 +20,7 @@ while True:
     print("\nx-system failed... try again in x-range REPEAT\n")
     time.sleep(2)
     print("system not available or expired\nDownloading now:")
+    time.sleep(2)
     for i in range(101):
         os.system('cls' if os.name=='nt' else 'clear')
         print(f"Proceso: {i}%")
@@ -37,3 +38,5 @@ time.sleep(1)
 ###Downloadxsistem-online-cauc4fxafe
 ###Run cauc4xfafe
 #EXECUTE download-if-custom
+## Cauc-lityau sinypyth-on ACTIVE
+#reset data.IP-get{answer7}ask 
