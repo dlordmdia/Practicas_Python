@@ -36,7 +36,12 @@ print("system not available or expired\nTry again until automatic download!\n")
 time.sleep(1)
 
 ###Downloadxsistem-online-cauc4fxafe
+
 ###Run cauc4xfafe
+
 #EXECUTE download-if-custom
+
+
 ## Cauc-lityau sinypyth-on ACTIVE
-#reset data.IP-get{answer7}ask 
+
+#reset data.IP-get{answer7}ask   -   78li.ytxt .txt )tyre.opentorn

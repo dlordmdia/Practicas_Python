@@ -1,6 +1,8 @@
 import webbrowser
 import time
 import os
+##
+##
 os.system('cls' if os.name=='nt' else 'clear')
 
 start = input("Quieres farmear BTC (Bitcoin)? (y/n): ")
