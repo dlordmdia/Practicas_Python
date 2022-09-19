@@ -10,6 +10,7 @@ from ast import Add
 from tokenize import Triple
 import string
 import pyperclip
+import pyautogui as pt
 
 system = True
 
@@ -17,7 +18,7 @@ while True:
     os.system('cls' if os.name=='nt' else 'clear')
     print("\n\n----MULTI-LAUNCHER----\n created by @dlordmdia")
     time.sleep(1)
-    answer1 = input("\nQue quieres hacer?\n\na- Guess the Number\nb- Complify Calculator\nc- Anime Hack\nd- QR Code Launcher\ne- Bitcoin Miner\nf- Dlord Texts\ng- Dlord Media Launcher\nh- Password Launcher\ni- Seconds Timer\nj- Lista de Compras\nk- Media Launcher\n\ndet- para Detalles\nx- to Exit\n- ")
+    answer1 = input("\nQue quieres hacer?\n\na- Guess the Number\nb- Complify Calculator\nc- Anime Hack\nd- QR Code Launcher\ne- Bitcoin Miner\nf- Dlord Texts\ng- Dlord Media Launcher\nh- Password Launcher\ni- Seconds Timer\nj- Lista de Compras\nk- Media Launcher\nl- Spammer\nm- Web Cracker\n\ndet- para Detalles\nx- to Exit\n- ")
     if answer1 == "a":
         play = True
         wrong = True
@@ -815,13 +816,47 @@ while True:
         os.system('cls' if os.name=='nt' else 'clear')
         print("Hasta aquí el Media Launcher por ahora...\nCreado por DlordMDia ")
 
+    elif answer1 == "l":
+        os.system('cls' if os.name=='nt' else 'clear')
+        limit = input("Enter limit:")
+        message = input("Enter message:")
+        i = 0
+        time.sleep(5)
+        pt.press("enter")
+
+        while i < int(limit):
+            pt.typewrite(message)    
+            
+            pt.press("enter")
+
+            i+=1
+
+    elif answer1 == "m":
+        os.system('cls' if os.name=='nt' else 'clear')
+        print("--WEB CRACKER--")
+        print("Ejecuta el Código de Web Cracker en un Online Python Terminal\n -x para TERMINAR")
+        time.sleep(1)
+        crack = input("INICIAR CRACK? (y/n) -x para TERMINAR: ")
+        input("pulsa /ENTER\ para confirmar que has leído || -x para TERMINAR||\n- ")
+
+        if crack == "y":
+            while True:
+                print("‎	0x0000000A")
+                print("Ejecutando...")
+        
+        if crack == "x":
+            break
+
+        else:
+            print("Gracias")
+    
     elif answer1 == "x":
         os.system('cls' if os.name=='nt' else 'clear')
         break
 
     elif answer1 == "det":
         os.system('cls' if os.name=='nt' else 'clear')
-        det = input("\nDe que quieres tener detalles?\n\na- Guess the Number\nb- Complify Calculator\nc- Anime Hack\nd- QR Code Launcher\ne- Bitcoin Miner\nf- Dlord Texts\ng- Dlord Media Launcher\nh- Password Launcher\ni- Seconds Timer\nj- Lista de Compras\nk- Media Launcher\n\nx- to Exit\n- ")
+        det = input("\nDe que quieres tener detalles?\n\na- Guess the Number\nb- Complify Calculator\nc- Anime Hack\nd- QR Code Launcher\ne- Bitcoin Miner\nf- Dlord Texts\ng- Dlord Media Launcher\nh- Password Launcher\ni- Seconds Timer\nj- Lista de Compras\nk- Media Launcher\nl- Spammer\nm- Web Cracker\n\nx- to Exit\n- ")
         
         if det == "a":
             input("Un Juego randomizado donde tienes que adivinar el número y te da la ventaja de saber si nu nombre es MAYOR QUE o MENOR QUE el primer input.\n/ENTER\ para salir\- ")
@@ -856,6 +891,12 @@ while True:
         if det == "k":
             input("Abre redes sociales sin tener huellas de Surf por el internet! \n/ENTER\ para salir\- ")
         
+        if det == "l":
+            input("Elige la cantidad y el qué quieres spammear de forma simple y segura!\n/ENTER\ para salir\- ")
+
+        if det == "m":
+            input("Rompe una página Web que funcionepor Servidor con ese carácter especial. \n/ENTER\ para salir\- ")
+
     else:
         os.system('cls' if os.name=='nt' else 'clear')
         print("No encuentro nada correspondiente a tu búsqueda. INTÉNTALO DE NUEVO!")
