@@ -14,9 +14,10 @@ import pyperclip
 system = True
 
 while True:
+    os.system('cls' if os.name=='nt' else 'clear')
     print("\n\n----MULTI-LAUNCHER----\n created by @dlordmdia")
     time.sleep(1)
-    answer1 = input("Que quieres hacer?\n\na- Guess the Number\nb- Complify Calculator\nc- Anime Hack\nd- QR Code Launcher\ne- Bitcoin Miner\nf- Dlord Texts\ng- Dlord Media Launcher\nh- Password Launcher\ni- Seconds Timer\nj- List de Compras\nk- Media Launcher\n\nx- to Exit\n- ")
+    answer1 = input("\nQue quieres hacer?\n\na- Guess the Number\nb- Complify Calculator\nc- Anime Hack\nd- QR Code Launcher\ne- Bitcoin Miner\nf- Dlord Texts\ng- Dlord Media Launcher\nh- Password Launcher\ni- Seconds Timer\nj- Lista de Compras\nk- Media Launcher\n\ndet- para Detalles\nx- to Exit\n- ")
     if answer1 == "a":
         play = True
         wrong = True
@@ -588,7 +589,7 @@ while True:
         anadiendo = False
 
         precio_total = 0.0
-
+        os.system('cls' if os.name=='nt' else 'clear')
         print("\nQue quieres hacer?\n")
         time.sleep(2)
         menu1 = "\na) Añadir cosas\nb) Ver lista\nc) Ver código mientras tu compra\nd) Añadir Precios\ne) Ver precio Total\nf) Eliminar Objeto de la lista\ng) Eliminar Precio\n\nPresiona /ENTER\ para salir de la lista de compras"
@@ -817,3 +818,45 @@ while True:
     elif answer1 == "x":
         os.system('cls' if os.name=='nt' else 'clear')
         break
+
+    elif answer1 == "det":
+        os.system('cls' if os.name=='nt' else 'clear')
+        det = input("\nDe que quieres tener detalles?\n\na- Guess the Number\nb- Complify Calculator\nc- Anime Hack\nd- QR Code Launcher\ne- Bitcoin Miner\nf- Dlord Texts\ng- Dlord Media Launcher\nh- Password Launcher\ni- Seconds Timer\nj- Lista de Compras\nk- Media Launcher\n\nx- to Exit\n- ")
+        
+        if det == "a":
+            input("Un Juego randomizado donde tienes que adivinar el número y te da la ventaja de saber si nu nombre es MAYOR QUE o MENOR QUE el primer input.\n/ENTER\ para salir\- ")
+        
+        if det == "b":
+            input("Calculadora compleja con muchas configuraciones!\n/ENTER\ para salir\- ")
+        
+        if det == "c":
+            input("Descarga todo tipo de Películas Anime! \n/ENTER\ para salir\- ")
+
+        if det == "d":
+            input("Crea un Código QR! \n/ENTER\ para salir\- ")
+        
+        if det == "e":
+            input("Mina Bitcoin Claimeando earnings de Páginas web Gratis! \n/ENTER\ para salir\- ")
+        
+        if det == "f":
+            input("Lee todas las letras de las Canciones de Dlord Rap! \n/ENTER\ para salir\- ")
+        
+        if det == "g":
+            input("Abre todas las Plataformas de Dlord! \n/ENTER\ para salir\- ")
+
+        if det == "h":
+            input("Crea y Comprueba una contraseña 100% segura")
+        
+        if det == "i":
+            input("Temporizador medido en Segundos!\n/ENTER\ para salir\- ")
+        
+        if det == "j":
+            input("Crea una lista de Compras con articulos, precios, calculadora, etc! \n/ENTER\ para salir\- ")
+
+        if det == "k":
+            input("Abre redes sociales sin tener huellas de Surf por el internet! \n/ENTER\ para salir\- ")
+        
+    else:
+        os.system('cls' if os.name=='nt' else 'clear')
+        print("No encuentro nada correspondiente a tu búsqueda. INTÉNTALO DE NUEVO!")
+        time.sleep(2)
