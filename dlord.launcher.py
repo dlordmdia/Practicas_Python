@@ -39,6 +39,14 @@ while True:
         os.system('cls' if os.name=='nt' else 'clear')
         webbrowser.open("https://www.youtube.com/channel/UCC-KnP22oPHfTt_vM4X5_6g")
     
+    elif what1 == "d":
+                os.system('cls' if os.name=='nt' else 'clear')
+                time.sleep(1)
+                print("Abriendo...  \n")
+                time.sleep(1)
+                os.system('cls' if os.name=='nt' else 'clear')
+                webbrowser.open("https://www.youtube.com/channel/UCCKj17GGbXvxpnECIJPUrfg/featured")
+    
     elif what1 == "x":
         os.system('cls' if os.name=='nt' else 'clear')
         break
