@@ -12,7 +12,7 @@ while True:
     print("\n--DLORD LAUNCHER--\n\n")
     time.sleep(1)
 
-    what1 = input("Qué quieres hacer?\n\na)Ver Contenido de Música\nb)Ver Contenido de Aventuras y Exteriores\nc)Ver Contenido de Drones\n\n-x to Leave\n-")
+    what1 = input("Qué quieres hacer?\n\na)Ver Contenido de Música\nb)Ver Contenido de Aventuras y Exteriores\nc)Ver Contenido de Drones\nd)Ver contenido de Bicicleta de Montaña\n\n-x to Leave\n-")
 
 
     if what1 =="a":
