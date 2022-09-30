@@ -23,4 +23,4 @@ while True:
         print(Fore.BLUE + f'{custom}')
     
     if color == "x":
-        break
+        break   

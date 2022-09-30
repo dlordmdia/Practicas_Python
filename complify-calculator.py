@@ -37,7 +37,7 @@ while not decidido:
         break
     elif start == "e":
         print("Gracias por usar Complify Calculator\n--Creado por @dlordmdia--\n")
-        exit()
+        break
     elif start == "l":
         print("Redirigiendo a Classroom...\n")
         time.sleep(1)
